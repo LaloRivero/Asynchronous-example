@@ -1,0 +1,20 @@
+{
+  "name": "async_example",
+  "version": "1.0.0",
+  "description": "This is an example of Async way to work in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/Callback/index.js"
+  },
+  "keywords": [
+    "Async",
+    "Await",
+    "Callback",
+    "Promise"
+  ],
+  "author": "Eduaro Rivero",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
