@@ -4,7 +4,11 @@
   "description": "This is an example of Async way to work in JavaScript",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/Callback/index.js"
+    "callback": "node src/Callback/index.js",
+    "callback-request": "node src/Callback/request.js",
+    "promise": "node src/Promise/index.js",
+    "promise-request": "node src/Promise/request.js",
+    "async-request": "node src/Async/async-await.js"
   },
   "keywords": [
     "Async",
@@ -15,6 +19,7 @@
   "author": "Eduaro Rivero",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^2.6.7",
     "xmlhttprequest": "^1.8.0"
   }
 }
